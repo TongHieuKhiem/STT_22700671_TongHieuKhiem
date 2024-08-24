@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *{
+            box-sizing: border-box;
+           
+        }
+        div{
+            text-align: left;
+            width:800px;
+            height: 480px;
+            border: 1.5px solid rgba(97, 175, 253, 0.749);
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .f1{
+            padding-right: 250px;
+        }
+        .f2{
+            padding-right: 30px;
+        }
+</style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+            <fieldset class="f1">
+                <legend>Your message:</legend>
+                <table>
+                    <tr>
+                        <td><label for="to">To</label></td>
+                        <td><input type="text" name="" id="to" value="Example Cafe"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Your email</label></td>
+                        <td><input type="text"></td>
+                    </tr>   
+                    <tr>
+                        <td><label for="">Message</label></td>
+                        <td><textarea name="" id="" cols="40" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Attach File</label></td>
+                        <td><input type="file" name="" id=""></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset class="f2">
+                <legend>How you found us:</legend>
+                <table>
+                    <tr>
+                        <td><label for="">How did you hear of us</label></td>
+                        <td><select style="width: 130px;">
+                            <option value="">Google</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Newsletter</label></td>
+                        <td><input type="checkbox" checked>Ensure this box is checked if you would like to receive email updates</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="button" value="Send message">
+    </div>
+</body>
+</html>
