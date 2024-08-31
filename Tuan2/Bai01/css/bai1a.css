@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 960px;
+    height: 450px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    /* căn giữa theo chiều dọc */
+    justify-content: center;
+    /* căn giữa theo chiều ngang */
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(174, 16, 16);
+    letter-spacing: 2px;
+    text-shadow: 0px 15px 13px rgb(233, 121, 121);
+}
+
+nav {
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    padding-left: 50px;
+    word-spacing: 3px;
+    align-items: center;
+    /* căn giữa theo chiều dọc */
+    justify-content: center;
+    /* căn giữa theo chiều ngang */
+}
+
+#a5 {
+    text-decoration: none;
+}
+
+#f1 {
+    width: 100%;
+    height: 340;
+}
+
+#a1 a {
+    color: red;
+}
+
+#a2 {
+    width: 100%;
+    height: 120px;
+}
+
+#a2 a {
+    color: red;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+h2 {
+    color: rgb(174, 16, 16);
+    background-color: rgb(229, 239, 212);
+}
